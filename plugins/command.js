@@ -32,6 +32,32 @@ switch(command) {
 case 'bot': 
 reply('what bro :)')
 break
+case 'ttyo':
+reply('Hehe ya boi')
+break
+case 'ttp':
+reply('💥')
+break
+case 'ttd':
+reply('💤')
+break
+case 'menu':
+templateButtons = [
+    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/HERMIT-SIR/whatsapp-bot-md'}},
+    {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+0'}},
+    {index: 3, quickReplyButton: {displayText: 'Good!', id: 'ttyo'}},
+    {index: 4, quickReplyButton: {displayText: '😹!', id: 'ttp'}},
+    {index: 5, quickReplyButton: {displayText: '🥱!', id: 'ttd'}},
+]
+
+templateMessage = {
+    text: `Hi vro ${pushname}\nThis is just a testing bot :)`,
+    footer: 'WhatsApp-bot-md',
+    templateButtons: templateButtons
+}
+
+bot.sendMessage(m.chat, templateMessage)
+break
 default:
 }
 } catch (err) {

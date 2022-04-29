@@ -24,6 +24,8 @@
 * [FFmpeg](https://www.gyan.dev/ffmpeg/builds/) (for sticker command)
 * [Libwebp](https://developers.google.com/speed/webp/download) (for sticker wm)
 
+## Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HERMIT-SIR/whatsapp-bot-md)
 ## For Termux
 ```bash
 termux-setup-storage

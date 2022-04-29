@@ -1,9 +1,8 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.sessionName = 'session' //session name
-global.prefa = ['#','!','/',''] //prefix
-
+global.sessionName = 'session'
+global.prefa = ['#','!','/','']
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)

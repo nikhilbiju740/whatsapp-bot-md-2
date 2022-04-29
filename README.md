@@ -43,7 +43,7 @@ npm start
 ## For Windows
 ```bash
 git clone https://github.com/HERMIT-SIR/whatsapp-bot-md.git
-cd BaseMD-ZeroYT7
+cd 
 npm install
 npm start
 ```
@@ -57,7 +57,7 @@ apt apt install imagemagick
 apt install bash
 git clone https://github.com/HERMIT-SIR/whatsapp-bot-md.git
 cd whatsapp-bot-md
-npm install
+install
 npm start
 ```
 
